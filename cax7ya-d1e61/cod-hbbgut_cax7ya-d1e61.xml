@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praefatio</title>
+        <author ref="#per-sykisy">Feofan Prokopovych</author>
+        <respStmt>
+          <name ref="#justincoyle">Justin Coyle</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praefatio</title>
+          <date when="2026-09-25">Sep 25, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="M" n="cod-hbbgut">MDA 245</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#M" n="130-v"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="cax7ya-d1e61">
+      <head>Praefatio</head>
+      <p>
+        <lb ed="#M" n="10"/>PRAEFATIO
+        <lb ed="#M"/>In qua de Ortu et Profectu huius Controversiae, totiusque, ob ipsum
+        <lb ed="#M"/>magni ac diuturni dissidii variis casibus, et multiplici malo-
+        <lb ed="#M"/>rum facie continuata ad nostram usque aetatem exponitur
+        <lb ed="#M"/>HISTORIA
+      </p>
+      <p>
+        <lb ed="#M"/>Postquam demonstratum est tres esse in divinitate Personas, sequitur est, ut doceamus, quamnam earum notio<lb ed="#M" break="no"/>nes 
+        sint, hoc est, pro quid una ab alia discernatur: item quaenam sint earundem mutuam interrelations sunt habi<lb ed="#M" break="no"/>tudines
+        denique de processionibus ipsis non agendum est: an scilicet una ab alia habeat suam originem: et non secunda et et tertia a sola
+        <lb ed="#M"/>prima, an vero secunda quidem a Prima, tertia vero a Prima et Secunda procedat ab aeterno. Quarum quaestionarum prio<lb ed="#M" break="no"/>res 
+        omnes et faciles sint, et litem fere nullam inter confessores Trinitatis faciunt: at postrema de Processione Personarum 
+        <lb ed="#M"/>tertiae Spiritus Sancti: an scilicet a solo Patre, an vero a Patre et Filio procedat, toto celeberrima orbe est: quippe quae occi<lb ed="#M" break="no"/>dentem 
+        ab Oriente diremit, totque ac tantis iurgiis, Litigiis, bellis, ac prope infinitis calamitatibus universam involuit 
+        <lb ed="#M"/>Ecclesiam. Quae mala cum paucis annis tolerari vix possent, totis paene novem saeculis grassata sunt, neque
+        <lb ed="#M"/>adhuc finem habent. Cum interim bruti utrinque homines, qui nihil nisi privatam quisque suam febrim sentire valent, aut 
+        <lb ed="#M"/>nihil  de extinguendo tanto incendio cogitaverint, aut etiam oleum affuderint. Huic enim dissidio aliae insuper atque aliae 
+        <lb ed="#M"/>odiorum caussae passim additae sunt: et ferociente praesertim Romana bestia, sibique insanos titulos, ac paene  divinam praerogativam 
+        <lb ed="#M"/>vendicate, ita confirmatum et schisma, ut nulla deinceps concordiae spes appareat. Interim tamen non defuere ullis, 
+        <lb ed="#M"/>ac praecipue nobis proximis temporibus nostrates homines, qui et praeteritorum malorum, ob inertiam et in evoluendis histor<lb ed="#M" break="no"/>iis 
+        desidiam ignari, et ad praesentia, quae se in oculos quotidie ingerunt, mire stupidi, non modo a perfidia adversariorum 
+        <lb ed="#M"/>non abhorruerunt, verum etiam hausto eorum veneno,  impiae, inquam, eorum theologiae viperino sane lacte poti, adeo  
+        <lb ed="#M"/>dementati fuere, ut non modo de controversia ista nihil sollicitudinis habuerint, sed pro aliis etiam plerisque Pontificiis 
+        <lb ed="#M"/>dogmatibus, noxiis superstitionibus, somniis ac fabellis securissime indormierint erunt. Ex quo factum est, ut parum aut nihil 
+        <lb ed="#M"/>a nobis dissidere Latini nostris plerisque nostris  videantur. Haec vero adeo perniciosa opinio est, ut multos simpliciores incautos 
+        <lb ed="#M"/>faciat, quominus sibi metuendum ab Papali Synagoga putent, atque adeo cum plerisque eius documentis aures praebere non du<lb ed="#M" break="no"/>bitent, 
+        tum etiam ubi fert occasio, vel aliquae urgent molestiae, in adversariorum transire castra haud multum vereantur.
+        <lb ed="#M"/>Cum tamen tot tamque foedis aliis etiam erroribus Latina Secta scateat, ut side praecissione etiam Spiritum Santi nobis cum 
+        <lb ed="#M"/>conveniret, longissimo tamen ab illis spatio dirimi nos oportuisset. Sed huic tanto dissidio ista, quam ingredimur, con<lb ed="#M" break="no"/>troversia 
+        fecit initium. Qua propter eam omni, qua par est, et possumus, diligentia expendemus.
+    </p>
+    <p>
+        <lb ed="#M"/>Antequam tamen ad rem ipsam accedamus, operae pretium facturos nos arbitnamur, si istius disputationis initia investi<lb ed="#M" break="no"/>gemus: 
+        unde et quibus ex causis, et quo tempore, quo auctore orta sit? Quos dogma processionis Spiritus Sancti: a Filio, patrones, 
+        <lb ed="#M"/>quos oppugnatores habuerit? I quo aut quando symbolum voce filioque auctum sit? Quos deinde progressus lis haec 
+        <lb ed="#M"/>fecerit, quibus in synodis ventilate fuerit, quas calamitates in Ecclesiam invexerit? Quae inde tragoediae editae? De<lb ed="#M" break="no"/>nique 
+        ut seres habuit iam inde ab initio schismatis usque ad aetatem nostram? Haec ex auctoribus cum Graecis tum Latinis col<lb ed="#M" break="no"/>lecta 
+        tenemus, partim quos hic penes habere potuimus, partim, imo maxima ex parte, quos evoluit doctissimus et longe erus
+        <lb ed="#M"/>ditissimus vir, huiusque controversiae omnibus nosstronus, tum Latinorum scriptorum solidissimus Scriptor, asine compa<lb ed="#M" break="no"/>ratione 
+        maximus <ref>Adam Zernileav<!-- Zernikov --></ref>. Edidit ille contra Latinos ingens scriptum, et aliud, quo librum <ref>Theophi Rutha Ie<lb ed="#M" break="no"/>suitae</ref> 
+        confutavit, tanta utrumque refertum eruditione, ut nihil ad hanc rem reliquum superesse, nihil plane defidera<lb ed="#M" break="no"/>ri 
+        videatur: et quotquot ante ipsum de hac controversia utraque ex parte scripsere, tametsi illi quidem inaequales 
+        <lb ed="#M"/>inter se fuerint, omnes tamen collati cum isto, tyrones iure merito vocari debent. Neque tamen ei, ubi adducit varia Pat<lb ed="#M" break="no"/>rum, 
+        historicorumque teftimonia, facile, et sine examine fidem adhibuimus: sed citata ab ipso dicta in ipsis fon<lb ed="#M" break="no"/>tibus, 
+        in libris, inquam, ex quibus citat (quos quidem reperire potuimus) quaesivimus: et ubi reperimus ita, ut citat, haberi 
+        <lb ed="#M"/>omnia, non erat, cur de aliio, quos penes nos non habemus, dubitare liceret. Quo enim fato, quaeso, factum esse dices, 
+        <pb ed="#M" n="130"/>
+        <lb ed="#M"/>ut ne quidem ex uno eorum authorum, qui hic sunt, nos ille fefellerit, si ipsi testimonia fingere cordi fuerit. Sed et gravi<lb ed="#M" break="no"/>tas 
+        doctrina summa atque candor viri , quem facile ex Stylo popexeris, maxime illum a fingendo abhorruisse plane 
+        <lb ed="#M"/>persuadet. Adde quod fere ad singula testimonia nominat etiam editionem libri, quo loco, et quo anno excusus sit. 
+        <lb ed="#M"/>Sed iam manum ad Tabulam.
+    </p>
+    <p>
+        <lb ed="#M"/>In primis falsi sunt, qui huius controversiae initium ad Nestoriana tempora revocant: eius authorem volunt esse <name>Theodoretum</name>, 
+        <lb ed="#M"/>doctissimum illum <name>Episcopum Cyri</name>: quod facit <ref>Bellarminus: libr. 2: de Christo, initio huius controversiae</ref>, et alii Latini. 
+        <lb ed="#M"/>Mota quidem fuit tunc quaestio ista, vel potius occasio eius iniecta erat a <name>Theodoreto</name>, sed quia ab interrogata parte 
+        <lb ed="#M"/>non fuit responsum contrarium, neque controversiae locus datus est. Cum enim <name>Cyrillus Alexandrinus</name> edidisset librum adversus hae<lb ed="#M" break="no"/>resim <name>Nestorii</name>, duodecim constans capitibus, quod anathematismos appellavit, et in eorum nono scripsisset Spiritum Sanctum esse 
+        proprium Filii: <name>Theodoretus</name> adhuc tunc eius adversarius, et <name>Nestorii</name>, <unclear>ex caecae</unclear> ignorantia, Fautor, scriptum illud <name>Cyrilli</name> 
+        <lb ed="#M"/>examinans, ubi venit ad illud noni anathematismi dictum, suspicans, ne forte <name>Cyrillus</name> doceat, Spiritum Sanctum procedere a Filio,
+        <lb ed="#M"/>hanc biviam instituit interrogationem: Proprium Spiritum Filii, si quidem ut eiusdem naturae et ex Patre procedentem di<lb ed="#M" break="no"/>xit, 
+        simul et nos confitebimur, et ut piam vocem amplectemur. Si vero tanquam ex Filio, vel per Filium suam habere existentiam,
+        <lb ed="#M"/>dicat, ut blasphemum et sicut impiam reiiciemus. Has suorum an athematismorum scilicet non sentiat secundum damna-
+        <lb ed="#M"/>tum a <name>Theodoreto</name> sensum, sed secundum ad missum tanquam pium. Ita enim loquitur in sua Responsione: illa sua Erat 
+        <lb ed="#M"/>et est eius <unclear>est</unclear> (Chrifti:) Spiritus, sicut certe et Patris: procedit enim quidem ex Deo et Patre Spiritus S., secundum 
+        <lb ed="#M"/>Servatoris vocem, sed non est alienus a Filio: omnia enim habet cum Patre S: Paria scripsit <name>Cyrillus</name> <ref>in Epistola ad 
+        <lb ed="#M"/>Ioannem Episcopum Antiochenum</ref>, inter quem tunc et ipsum, lis intercessit ad aliquod tempus: hanc am accepta Epistola, 
+        <lb ed="#M"/>et doctrina <name>Cyrilli</name> Orthodoxa cognita, cum <name>Ioannes</name> dictum, tum caesteri Orientales Episcopi in gratiam cum <name>Cyrillo</name>, 
+        et quid de doctrina <name>Cyrilli</name> <ref>ex Epistola</ref> eius intellexerint, significandit <name>Ioanni</name>. Litterae inquiunt, nuper
+        <lb ed="#M"/>missae (a <name>Cyrillo</name> videlicet) <unclear>Evangelica</unclear> nobilitate decorantur: praedicatur enim in ipsis Iesus Christus perfectus et Deus et homo,
+        <lb ed="#M"/>et Spiritus Sanctus non ex Filio aut per Filium habens existentiam, sed ex Patre procedens appellatus vero Filii proprius. Quae er<lb ed="#M" break="no"/>go 
+        haec est controversia, cum <name>Cyrillus</name> dictum suum exponit ad sensum <name>Theodoreto</name> placem <unclear>tem</unclear>. Neque postea de hac re
+        <lb ed="#M"/>ulla <name>Theodoreto</name> ccum <name>Cyrillus</name> fuit: imo ait <name>Theodoretus</name> sese a <name>Cyrillo</name> in contestatione certe benevolentiae vo<lb ed="#M" break="no"/>catum 
+        esse totius orientis Doctorem. Excipiunt quidem hic Pontificii, scriptum <name>Theodoreti</name> contra anathematismos 
+        <lb ed="#M"/><name>Cyrilli</name> editum, in <ref>Concilio Quinto Oecumenico</ref> anathemati subjectum esse: ergo et hoc, quod impiam vocem esse dixe<lb ed="#M" break="no"/>rit, 
+        procedere Spiritum Sanctum a Filio, ut partem eiusdem scripti esse damnatam. Sed errant hic toto caelo: cum 
+        <lb ed="#M"/>enim damnatur aliquod scriptum haereticum, non intelligendum est damnari omnes et singulas eius partes. In scripto 
+        <lb ed="#M"/>v. g. <name>Arii</name> reperies confessionem unius Dei, et alia sana dicta (scripsitque <ref>Athanasius tractatum singularem,
+        <lb ed="#M"/>in quo recenset, quae bene, et quae male dicebant Ariani</ref>) num igitur damnans Arianum librum, etiam illa, quae 
+        <lb ed="#M"/>ibi benedicuntur, damnabis? Dicitur tamen totum scriptum damnari, quia malum, ut aiunt, ex singulis defectibus efficitur. 
+        <lb ed="#M"/>Instat vero <ref>Leo Allatius Latinizatus Graecus lib: 2: Concensus Ecclesiastici cap: 2</ref>: nihil esse in memorato scrip<lb ed="#M" break="no"/>to 
+        <name>Theodoreti</name>, quod sit haereticum: ergo non nisi hoc unicum de processione Spiritus Sancti dictum damnationem Quin<lb ed="#M" break="no"/>ta 
+        Synodi meruisse. Verum respondeo 1: Hanc <ref>Allatii</ref> observationem esse contrariam priori omnium Latinorum instantiae:
+        <lb ed="#M"/>Haec enim asseverat ob unam tantum vocem integrum scriptum damnatum esse, cum alii dicant, ideo et vocem hanc 
+        <lb ed="#M"/>esse damnatam, quia damnatum est totum scriptum. 2: Tametsi <name>Theodoreti</name> scriptum illud sano sensu totum expli<lb ed="#M" break="no"/>cari 
+        possit, ut et debet: (Nam <name>Theodoretus</name>, ut postea eventu probatum est, non sententia sed loquendi formula, a <name>Cyrillo</name>
+        <lb ed="#M"/>dissidebat, et <name>Nestorio</name> adstipulari videbatur) Patres tamen Quintae Synodi in sensu Nestoriano scriptum illud acce<lb ed="#M" break="no"/>perunt, 
+        sunt enim quaedam plane ambigua, ut quod neget in Christo unitatem secundum subsistentiam, adeoque et merito 
+        <lb ed="#M"/>proscripserunt. 3: Denique <name>Theodoretus</name> a <name>Cyrillo</name> in communionem receptus, et a Concilio Chalcedonensi Episcopali sedi
+        <lb ed="#M"/>restitutus, in eadem semper de processione Spiritus Sancti doctrina perstitit, ut patet exeius scriptis aliis; neque unquam a quopiam 
+        <lb ed="#M"/>ob hoc accusatus fuit: qua de re adhuc infra, (ubi de eius testimonio ago), videbimus. Constat ergo originem
+        <lb ed="#M"/>huius controversiae male ad <name>Theodoretum</name> referri: licet haec eius cum <name>Cyrillo</name> altercatio et reconciliatio multum, ut 
+        <lb ed="#M"/>per se patet, causae absit Latinorum.
+      </p>
+      <p>
+        <lb ed="#M"/>Seculo septimo circa <unclear>cadnid domini</unclear>. Quaedam huius controversiae semina non iacta quidem, sed tamen iacta esse visa sunt. San<lb ed="#M" break="no"/>ctus 
+        enim <name>Maximus</name> Martyr <ref>in Epistola ad Marinum</ref> a Graecis inter alia obiectum esse Latinis quod doceant
+        <lb ed="#M"/>Spiritum Sanctum: procedere a Filio: sed ipse ille ibidem exponit Latinorum sensum, quod scilicet non doceant, Filium esse causam 
+        <lb ed="#M"/>Spiritus Sancti, sed unam tantum in divinitate causam Patrem confiteantur, prodire tamen illum per Filium dicant. Habetur huius
+        <lb ed="#M"/>fragmentum Epistolae in <ref>Concilio Florentino Sessione 23</ref>: Porro haec verba <name>Maximi</name> ita refert et explicat etiam 
+        <lb ed="#M"/><name>Anastasius Bibliothecarius</name>, ipse Latinus, qui vixit circa annum Domini <unclear>Octingentesimum</unclear>, eo scilicet tempore, quo
+        <lb ed="#M"/>iam dogma Latinum sumebat vires, ut postea patebit: Verba eius haec sunt in <ref>Epistola ad Ioannem diaconum tom: 5</ref>:
+        <lb ed="#M"/><unclear>Concilio</unclear>: Praeterea interpretati sumus ex Epistola eiusdem Sancti <name>Maximi</name> ad Marinum scripta circumstantiam de
+        <lb ed="#M"/>processione Spiritus Sancti: ubi frustra caeteri contra nos <unclear>inuit</unclear> Graecos, cum nos non causam vel Principium Filium dicamus
+        <lb ed="#M"/>Spiritus Sancti: ut autumant, sed unitatem substantiam Patis ac Filii non nescientes, sicut procedit ex Patre, ita eum 
+        <lb ed="#M"/>procedere fateamur ex Filio, missionem nimirum processionem intelligentes, pie interpretans, utriusque linguae gna<lb ed="#M" break="no"/>ros 
+        ad pacem erudiens: dum scilicet et nos Graecos edocet, secundum quiddam procedere, et secundum quiddam 
+        <lb ed="#M"/>non procedere Spiritum Sanctum ex Filio. pag: 1771:. Neque ergo ex Sancti <name>Maximi</name> temporibus origo huius dissidii repe<lb ed="#M" break="no"/>tenda 
+        est: Quanquam enim pepererant eam de se suspicionem Latini, sola tamen minus causa eorum locu<lb ed="#M" break="no"/>tio 
+        incausa fuit: sententiam vero longe aliam a modernis suis posteris habuerunt: quam ipsam dum <name>Maximus</name> explicuit, 
+        <lb ed="#M"/>etiam suspicionem Graecis exemit: quod quidem ex eventu patet: cum nulla eo tempore hac de re lis fuerit.
+        <lb ed="#M"/>Interim hic bene notandum est, hanc forte ita incautam Latinorum locutionem semen fuisse moderno co<lb ed="#M" break="no"/>rum 
+        dogmati: cum enim quidam apud ipsos vocem processionis pro missione usurpassent, et in hac significatione 
+        <lb ed="#M"/>procedere Spiritum Sanctum a Filio dixisset, alii postea opinati sunt, suae opinione Ecclesiae esse, quod Spiritus Sanctus a Filio ab
+        <lb ed="#M"/>aeterno procedat, seu existentiam suam habeat, atque ita, ubi hoc negari perceperunt a Graecis, ipsi tumultus excitarunt, 
+        <lb ed="#M"/>et tanto dissidio iecerunt fundamenta.
+      </p>
+      <p>
+        <lb ed="#M"/>Vera igitur Zernikavi Observatio est, caepisse istam controverfiam circa finem Octavi et initium noni saeculi , idque non 
+        <lb ed="#M"/>Latinos inter et Graecos, et sed inter solos Latinos: quod quidem ex illorum temporum historiis ita colligitur. Primo 
+        <lb ed="#M"/>agitatam hanc quaestionem circa dictum tempus inter ipsos Latinos, auctores sunt. <name>Ado Episcopus Viennensis</name>
+        <lb ed="#M"/>in <unclear>Chronico ad annum 809</unclear>: <ref><name>Aimonius</name>, lib: 4 de gestis Francorum cap: <unclear>97</unclear></ref>: Author annalium Francorum ab anno 741 
+        <lb ed="#M"/>ad annum 814: tom: 2: Historiam Francorum Scriptorum Parisiis anno 1636: ab Andrea de Chesne editorum pag: 46: 
+        <lb ed="#M"/>Author vitae Caroli Magni in eodem tomo pag: 64: Monachus quidem coenibius Egolismensis in vita Caroli Mag<lb ed="#M" break="no"/>ni, 
+        ibidem pag: 84: Eginhardus in annalibus ibidem pag: 255: et alii passim: qui omnes testantur, convocatum 
+        <lb ed="#M"/>ea tempestate fuisse magnum in urbe Aquisgrano Latinorum Concilium, et de processione Spiritus Sancti, acriter <unclear>ab iis</unclear> dis<lb ed="#M" break="no"/>putatum:
+        simulque istius disputationis occasionem aiunt fuisse, quod Monachus quidam Hierosolymitanus, nomine 
+        <lb ed="#M"/><name>Ioannes</name>, quaestionem illam moverit. Floruit autem non multum ante illud tempus, non procul ab Hierosolyma, celebris ille 10 an<lb ed="#M" break="no"/>nes
+        <name>Damascenus</name>: nec alius praeter ipsum hoc nomine, et eo loci scriptor reperitur. Quia ergo <name>Ioannes</name> hic luculenter 
+        <lb ed="#M"/>multis in locis docet Spiritum Sanctum a folo procedere Patre, postquam forte scripta eius in manus Latinorum pervenerunt, 
+        <lb ed="#M"/>quidam eorum, illi scilicet, qui processionem a suis pro missione acceptam non intelligebant, sed stricte pro aeterna processi<lb ed="#M" break="no"/>one 
+        capiebant, Ioannis doctrinam doctrinae suae contrariam opinati sunt, alii vero eandem uti Orthodoxam 
+        <pb ed="#M" n="131-v"/>
+        <lb ed="#M"/>probarunt, atque ita ad pugnam secum descenderunt. Illud ergo ipsum Latinorum iurgium prima est huius controversiae origo. 
+        <lb ed="#M"/>Nam tametsi de <name>Ioanne Damasceno</name> conjectura est: (quanquam ea est in genere coniecturarum certissima:) Nihilominus tamen 
+        <lb ed="#M"/>ex verbis memoratorum scriptorum certe constat Ioannem illum monachum quaestionis illius motorem, qui cunque tandem 
+        <lb ed="#M"/>ille fuerit, non procul ab iis temporibus abfuisse. Ex eo etiam ipso, quod magnum concilium convocatum sit, constat illa controversiae
+        <lb ed="#M"/>fuisse prima initia. Denique id ipsum apparet ex verbis legatorum, qui a <ref>Concilio illo ad Papam Leonem tertium</ref> venerant.
+        <lb ed="#M"/>Ita enim loquuntur. <quote>Quaestio, quae de Spiritus Sancti processione est nuper exorta</quote>. Et rursus: <quote>Non quievit quasi antiquitus ventilata, sed
+        <lb ed="#M"/>quasi quaedam his temporibus nobis subito emersit occulta</quote>. Et iterum: <quote>Quia haec quaestio diu a quaerentibus iacebat indis<lb ed="#M" break="no"/>cussa,
+        <lb ed="#M"/>voluit omnipotens Deus, in eandem suscitare corda Pastorum, ut negligentiae torpore sublato, exercitationis Sanc<lb ed="#M" break="no"/>tae 
+        brachio, caelestem valeant perfoedere thesaurum</quote>. Quae verba bene notanda sunt, ad reliquas mox subiiciendas 
+        <lb ed="#M"/>observationes. Oratio tota dictorum legatorum, ex qua ista verba adducimus, habetur tom: 7: Concilionem, columna 1199: a
+        <lb ed="#M"/>Philippe labe<!-- Philippe Labbe, SJ (d. 1667) -->inserta.
+      </p>
+      <p>
+        <lb ed="#M"/>Habemus igitur veram controversiae originem: quaerendum super est, quis primus ausus fuit addere ad symbolum vocem Fili<lb ed="#M" break="no"/>oque?
+        Prius tamen placet paucis inquirere, quaenam tunc de ipso dogmate fuerit Latinae Ecclesiae sententia. Dicent
+        <lb ed="#M"/>procul dubio et dicunt recentiores Latini, Ecclesiam occidentalem semper credidisse Spiritum Sanctum procedere ex Patre et 
+        <lb ed="#M"/>Filio. Quod falsum oftendimus his rationibus. Primo Vidimus supra ex <ref>epistola Sancti Maximi</ref>, Latinos antiquiores, cum
+        <lb ed="#M"/>sibi tale dogma ab orientalibus obiectum esset, non aliter obiectionem diluisse, nisi explicando vocem processionis pro tem<lb ed="#M" break="no"/>poraria 
+        missione. Secundo Aquisgranenses legati aiunt, se suosque nunc primum accingi ad effodiendum thesaurum cae<lb ed="#M" break="no"/>lestem: 
+        hanc scilicet suam de processione doctrinam: antea igitur Thesaurus hic latebat eos. Tertio Cur alioqui ipsi Latini 
+        <lb ed="#M"/>Opus habuerint Concilio, et secum ipsis disputaverint, non enim cum Graecis, nisi quod exorta quaestione non omnes idem
+        <lb ed="#M"/>sentire apparuit. Quarto <name>Aimonius</name> supra memoratus loco citato ait, in illo Concilio nihil fuisse definitum <quote>propter rerum,
+        <lb ed="#M"/>ut videbatur, magnitudinem</quote>. neutra ergo pars cessit alteri, et tamen utraque erant Latini soli. Praecipui doctrina 
+        <lb ed="#M"/>et authoritate illius ipsius temporis viri Latini, moderno Latinorum dogmati tanquam <unclear>usus</unclear> acriter restiterunt. Florebat 
+        <lb ed="#M"/>circa illa tempora <name>Albinus Alcuinus Anglus</name>, quem <name>Carolus Magnus Francorum Rex</name>, ob insignem viri eruditionem, in Galliam 
+        <lb ed="#M"/>evocavit: eique cum semet ipsum pro discipulo tradidit, tum erigendam Academiam commisit. Ille igitur in <ref>Epiftola ad Fratres 
+        Lugdunenses, quam est numero 69: in eius operibus editionis Parisiensis anno 1617: colum. 1587:</ref> in hunc modum differit: <quote>Novas
+        <lb ed="#M"/>Fratres carissimi Hispanici erroris sectas tota vobis cavete intentione: Sanctorum Patrum in fide sequimini vestigia et 
+        <lb ed="#M"/>universali Ecclesiae sanctissima vos ad iungite Unitate: Scriptum est: Terminos Patrum tuorum ne transgrediaris: 
+        <lb ed="#M"/>Et Symbolo Catholicae fidei nova nolite inserere: etc</quote>. Sponte patet, de quo ille loquitur: Nullum enim nunquam audi<lb ed="#M" break="no"/>tum 
+        fuit aliud additamentum Symboli, praeter hoc Filioque: et praeterea iam vidimus non de alio vel dogmate vel additamento 
+        <lb ed="#M"/>altercatos fuisse tunc, cum et Scriptor hic vivebat, Latinos. <ref><name>Henricus Canisius</name> in notis ad Epistolam hanc Alcuini ad<lb ed="#M" break="no"/>jectis </ref>
+        concedit quidem illum loqui de isto additamento, sed ait sequtum exemplum <name>Leonis Tertii</name>, ita scripsisse contra addi<lb ed="#M" break="no"/>tamentum, 
+        non contra ipsum dogma. At fallitur bonus Canisius: Nam <name>Leo Tertius</name> proscripsit additamentum anno 809: 
+        <lb ed="#M"/><name>Albinus</name> autem decessit anno 804: quinque nimirum annis ante Concilium Aquisgranense, et Leonis illam proscriptionem,
+        <lb ed="#M"/>de qua mox infra. Testantur hoc Scriptores veteres: Anonymus vitae <name>Albini</name> Scriptor, qui impressus est ante memora<lb ed="#M" break="no"/>ta 
+        eius opera. Odoramus Monachus in Chronico: Chronicon Turonense abbreviatum; Canonicus Senonensis Anonymus: om<lb ed="#M" break="no"/>nes 
+        isti iisdem Albini operibus praefixi sunt. Quid vero etiam dogma ipsum: reprehendit <name>Albinus</name>, patuit ex verbis recita<lb ed="#M" break="no"/>tis.
+        <lb ed="#M"/>Eadem aetas satis doctum (ut quidem ferebant illa tempora:) habuit Theologum <name>Paulinum Aquileensem</name> 
+        <lb ed="#M"/>Patriarcham: qui et ipse, ubi dogma hoc disseminari, et a quibusdam Symbolum augeri vidit, mature huic malo occur<lb ed="#M" break="no"/>rere 
+        conatus est. Coëgit enim Synodum in urbem Italiae, Forum-Iulium dictam, et cum toto illo concilio novitatem istam 
+        <lb ed="#M"/>proscripsit, anno 791: Exstat illa Synodus (quanquam foede corrupta, ut mox dicemus:) Tom: 3: Conciliorum, prioris partis sec<lb ed="#M" break="no"/>tione 
+        posteriore editionis (penes nos:) Coloniesnsio, Sevarini Binii, pag: 133: Ibi ergo Paulinus inter alia ita loquitur <quote>Pro<lb ed="#M" break="no"/>pter 
+        varios haereticorum errores, diversasque quorundam simplicium suspiciones, non alteram componere vel docere fidem consentio,
+        <lb ed="#M"/>sed eam quam a Patribus traditam Omnia sinceriter saecula susceperunt. Scio namque in quibusdam Synodalibus foliis (Synodi 
+        <lb ed="#M"/>Ephesinae decretum intelligit de non immutando Symbolo:) esse Sanctum ad refellendas quidem novas et multiplices hae<lb ed="#M" break="no"/>reses, praefertim propter fraudulentam fi-
+        praesertim propter <unclear>fraudulentiam, fictamque</unclear> Nestorii vel Eutychis falsidi corum pestilentiumque virorum non fidem dicam, sed 
+        <lb ed="#M"/>potius perfidiam, non licere cuiquam, alterius fidei Symbolum docere, vel componere. Sed absit a nobis, proculque sit ab omni corde fide<lb ed="#M" break="no"/>li, 
+        aliter, atque aliter, quam illi instituerunt, Symbolum vel fidem docere vel componere. Sed iuxta eorum sensum, ea fortasse, quae
+        <lb ed="#M"/>propter brevitatis compendium, minus quamdecet, a simplicibus vel indoctis intelliguntur, exponendum decrevimus tradere, ac me<lb ed="#M" break="no"/>moriae 
+        mandavimus, eam ipfumque textum Symboli retinere.</quote> Et post pauca iterum: <quote>Enim vero non est in ar<lb ed="#M" break="no"/>gumento 
+        fidei addere vel minuere ea, quae a Sanctis Patribus bene salubriterque sunt promulgata: secundum eorum sensum recte 
+        <lb ed="#M"/>sentire, et exponendum eorum subtile supplere ingenium, sed addere vel minuere, est subdole contra sacrosanctum eorum 
+        <lb ed="#M"/>sensum, aliter quam illi, callida tergi versatione sentire, et confuso stylo, perversum dogma componere, ac per hoc impio ore 
+        <lb ed="#M"/>potius iactanter garrire, quam docere praesumere</quote>. Vides ut cavet Symbolo ab omni additione: et expositionem quidem 
+        <lb ed="#M"/>symboli non prohibet, textum tamen eius retinendum esse docet. Dubium tamen non eft, quod de Latino isto iam tandem recepto 
+        <lb ed="#M"/>additamento loquitur: quia et quaestio de processione Spiritus Sancti in ipsius tempora incidit, uti vidimus, et nullum unquam aliud 
+        <lb ed="#M"/>additamentum captatum fuit. Occurrebat igitur <name>Paulinus</name> eorum audaciae, qui affirmativam quaestionis partem 
+        <lb ed="#M"/>amplexi, etiam Symbolo inserere eam non verebantur. Pupugit vero adversarios tanta istius Synodi cautio, et quid fecerunt? 
+        <lb ed="#M"/>Veteratoria arte, quam ipsi omnium maxime mortalium semper exercuerunt, ut suo loco videbimus, inseruerunt eidem 
+        <lb ed="#M"/>Paulinae orationi sua placita cita, et Paulinum ex adversario patronum effecerunt. Nam ibidem infra Paulinus sui<lb ed="#M" break="no"/>met 
+        ipsius oblitus laudat eos, qui addiderunt Symbolo vocem Filioque: et ibidem recitatur integrum Symbolum cum additamento. 
+        <lb ed="#M"/>Ceterum eos tantum deceperunt, qui nares non emungunt. Non enim potuit ita loqui Paulinus, si in eadem oratione 
+        <lb ed="#M"/>additamentum esset probaturus: citat decretum Ephesinum de non innovando Symbolo, vetat addere vel minuere, et 
+        <lb ed="#M"/>concedens Symboli expositionem, textum tamen ipsius illaesum vult retinendum, qui ergo probare potuerit additamentum? 
+        <lb ed="#M"/>nam textus iam est immutatus. Imo quae erat necessitas loqui de integritate Symboli conservanda? Diceret po<lb ed="#M" break="no"/>tius 
+        non ita intelligendum esse decretum Ephesinum, ut ne vera quidem Symbolo addere liceat: quomodo nunc La<lb ed="#M" break="no"/>tini 
+        communiter excipiunt: hic vero Paulinus ad illud, quo tendebat, quo tendebat, partem sibi destruxit ipse. Prodit etiam 
+        <lb ed="#M"/>sese vel invitus Falsarius: ait enim non esse, culpandos Patres, qui Symbolo addiderunt: at quae huius desensionis causa
+        <lb ed="#M"/>fuit? nimirum cum legebat superius recitata verba Nebulo, et ipsis mens eius adversabat, quod ipse dicere debuit,
+        <lb ed="#M"/>in OS Paulini ingessit, eumque sibi met ipsi fecit adversarium, et adeo ostendit immemorem et obliviosum, 
+        <lb ed="#M"/>ut quae summa animi cum vehementia locutus fuit, mox eorum sit oblitus, contrarium effatus. denique fingitur Pau<lb ed="#M" break="no"/>linus
+        dicere, quod iam olim Patres, nescio qui, Symbolo illud addiderint; at Legati Aquisgranenses viginti circiter 
+        <lb ed="#M"/>annis, post istam Synodum petierunt a Leone tertio, ut iuberet addi illud ad Symbolum, nec tamen obtinuerunt: ipseque Leo, 
+        <lb ed="#M"/>citato <ref>Ephesino decreto</ref>, vetuit in perpetuum illam additionem, ut infra mox videbimus: quis ergo hic non videt nefariam manum? 
+      </p>
+      <p>
+        <lb ed="#M"/>Non defuere abhinc et alii inter Latinos, qui novae doctrinae adversabantur, sed eorum quosdam referemus 
+        <lb ed="#M"/>poftea; hic ordinem gestarum rerum deinceps persequimur.
+      </p>
+      <p>
+        <lb ed="#M"/>Dictum est, novi dogmatis semina primum, deinde ipsum etiam dogma Latinos inter se commiserit: iam de eiusdem 
+        <lb ed="#M"/>dogmatis ad Symbolum accessione dicendum est. Ergo anno 809: ex Concilio Aquisgranensi, de quo iam supra diximus,
+        <lb ed="#M"/>venerunt legati Romam ad Papam Leonem Tertium, <name>Bernarius Episcopus Vormatiensis</name> et sese alius Episcopus, et Adel<lb ed="#M" break="no"/>hardus
+        Abbas Corbiensis. Erant isti adversae nobis partis homines, et vocantur Missi Domini Caroli Imperatoris: 
+        <lb ed="#M"/>ex quo apparet, Carolum Magnum: novo illi dogmati fidem habuisse. Ibi prius orationem habuerunt, in qua conantur
+        <lb ed="#M"/>ostendere Spiritum Sanctum procedere ex Filio: sed partim detortis, partim depravatis testimoniis, ut deinde in decursu 
+        <pb ed="#M" n="131"/>
+        <lb ed="#M"/>huius tractatus demonstrabimus. Papa argumentis istis deceptus admisit dogma. Adhuc tunc scilicet Papae 
+        <lb ed="#M"/>poterant errare. Deinde fit colloquium de additione novi dogmatis Symbolo inferenda. Legati inferendum contendunt: 
+        <lb ed="#M"/>Papa negat: fuitque satis longa de hoc legatorum cum Papa disceptatio, nec tamen conceffit Papa. Imo cum legati 
+        <lb ed="#M"/>dicerent, iam esse alicubi auctum Symbolum, et cum augmento publice cantari; Papa, id factum se in consulto esse, 
+        <lb ed="#M"/>et abhinc omnino additamentum ex Symbolo abolendum respondit. Ita finitum est colloquium. Est vere integra 
+        <lb ed="#M"/>illa difputatio conscripta a Smaragdo, qui ei interfuit, habeturque apud Baronium annum 809: et <unclear>penes nos</unclear>
+        <lb ed="#M"/>tom: 3: Concilior: iuxta Severinum Binium, partis prioris sectione posteriore a pagina 185:
+      </p>
+      <p>
+        <lb ed="#M"/>Neque contentus eft Leo Papa additamentum illud oretenus prohibere, verum cavens in perpetuum integritati Symboli, 
+        <lb ed="#M"/>duas ex argento confecit tabulas, quarum uni inscripsit graeco, alteri Latino idiomate Symbolum sine addi<lb ed="#M" break="no"/>tamento.
+        Addiditque epigraphen, qua consilii sui expressit rationem, inscripsit enim tabulis: Haec Leo posui 
+        <lb ed="#M"/>amore cautela Orthodoxae Religionis. Memorant istas tabulas ipsi Latini vetusti scriptores:
+        <lb ed="#M"/><ref>Anastasius Bibliothecarius in vita Leonis memorati</ref>. <ref><name>Petrus Abelardus</name> lib: 2 introductionis in Theologiam cap: 14</ref>: 
+        <lb ed="#M"/><ref>Petrus Lombardus lib: 1: Sententiarum cap: 11</ref>: <ref>Petrus Damiani opusculo 38: quod est de processione cap: <unclear>2: tom. 3</unclear>:
+        <lb ed="#M"/>operum</ref>, ait <quote>illas tabulas adhuc sua aetate visas fuisse: est vero seculi undecimi Scriptor. Meminit earundem <name>Photius</name>
+        in <ref>Epistola ad Metropolitam Aquileensem</ref>: meminerunt Graeci in Concilio Florentino: nque negant Moderni 
+        <lb ed="#M"/>Latini: Baronius ad annum 809: <ref>Bellarminus lib: 2: de Christo cap: 27</ref>: <ref>Severinus Binius in Tom: Conciliorum <unclear>paulo ante</unclear></ref>:
+        <lb ed="#M"/><ref>Nicolaus Cichouslii Jesuita Polonius in Tribulani suo pag: 321</ref>: denique negantem hactenus audivi ne<lb ed="#M" break="no"/>minem.</quote>
+        Anastasius autem primo loco hic laudatus tam certam facit historiam, ut etiam tabularum illarum pon<lb ed="#M" break="no"/>dus 
+        exprimat, ait enim fuisse in illis libras 94: et uncias sex argenti. Et erant tabulae istae affixae vel appen<lb ed="#M" break="no"/>sae 
+        in Basilica S. Petri ante altare Corporis Sancti Pauli, ut quidam ex citatis Scriptoribus referunt. Certa igitur 
+        <lb ed="#M"/>est haec, ipsis ultro fatentibus Latinis historia: subsistendum tamen breviter est, et videndum, quid ad hanc rem eorum non
+        <lb ed="#M"/>nulli excipiant.
+      </p>
+      <p>
+        <lb ed="#M"/>CAPITA LIBRI TERTII.
+      </p>
+      <p>
+        <lb ed="#M"/>Caput 1mum. De vocibus processionis et missionis, ut in hoc Mysterio usurpantur: et statuit status Quaestionis.
+        <lb ed="#M"/>Cap: 2dum. Quid de processione Spiritus Sanctus, ex Scriptura certi habere possimus? Locus Ioannis capitis 15ti
+        <lb ed="#M"/><quote>Spiritus veritatis, qui a Patre procedit</quote>, explicatur: variaeque latinorum exceptiones ventilantur.
+        <lb ed="#M"/>Cap: 3tium. Testimonia selecta Patrum Orientalium pro dogmate nostro.
+        <lb ed="#M"/>Cap: 4tum. Testimonia selecta Patrum Occidentalium pro nostro dogmate.
+        <lb ed="#M"/>Cap: 5tum. Ex principiis Theologicis dogma nostrum confirmatur.
+        <lb ed="#M"/>Cap: 6tum. Satisfit objectioni Latinorum, et ostenditur Spiritum Sanctum mitti a Filio, non esse argumentum pro<lb ed="#M" break="no"/>cessionis 
+        eiusdem a Filio.
+        <lb ed="#M"/>Cap: 7mum. Satis fit alteri Latinorum objictioni, et ostenditur, in sufflasse Christum ac dixisse: accipi<lb ed="#M" break="no"/>te 
+        Spiritum Sanctum non esse argumentum processionis Spiritus Sancti, a Filio.
+        <lb ed="#M"/>Cap: 8vum. Respondit ad tertiam Latinorum obiectionem, et demonstratur, Filium omnia, quae Patris 
+        <lb ed="#M"/>sunt, habere, non esse argumentum processionis Spiritus Sancti a Filio?
+        <lb ed="#M"/>Cap: 9num. Diluitur quarta Latinorum objectio, et ex eo, quod Spiritus S. dicitur Christi Spiritus, non esse ar<lb ed="#M" break="no"/>gumentum 
+        processionis eius a Filio, ostenditur.
+        <lb ed="#M"/>Cap: 10mum. Quinta Latinorum objectio dissolvitur, neque esse argumentum processionis Spiritus S. a Filio, 
+        <lb ed="#M"/>ex eo, quod Christus dixerit de illo: <quote>de meo accipiet</quote>.
+        <lb ed="#M"/>Cap: 11mum. Ad Obiectionem Latinorum Sextam respondetur: et quidnam sibi velit dictum illud Chris<lb ed="#M" break="no"/>ti 
+        de Spiritu Sancto: <quote>Non a semet ipso loquetur, fed quaecunque audiet, et cetera:</quote> et docetur ex dic<lb ed="#M" break="no"/>to 
+        isto non sequi Spiritum Sanctum: procedere a Filio.
+        <lb ed="#M"/>Cap: 12dum. Tria alia ex Sacris litteris miserum in modum a Latinis torta argumenta exploduntur.
+        <lb ed="#M"/>Cap: 13tium. Praemittitur generalis consideratio ad Patrum praesertim Occidentalium dicta, quae Lati<lb ed="#M" break="no"/>ni 
+        pro suo dogmate citant.
+        <lb ed="#M"/>Cap: 14tum. Recensentur loca Patrum Orientalium, quae Latini vel Latinizantes Graeci corruperunt.
+        <lb ed="#M"/>Cap: 15tum. Recensentur loca Occidentalium Patrum a Latinis corrupta.
+        <lb ed="#M"/>Cap: 16tum. Obiter disserit, quid Latini de more corrumpendi libros Graecorum ganniant: et aliis insuper 
+        <lb ed="#M"/>corruptelis libido ipsorum falsaria compugnigitur. Hic Carthagenae argumenta <unclear>decon<lb ed="#M" break="no"/>cept:</unclear>
+        B:V: item <unclear>Maliosii Poloni: Boni facii capae, aliorumque</unclear>.
+        <lb ed="#M"/>Cap: 17mum. Singulares ad Obiecta quaedam ex Patribus Orientalibus dicta responsiones.
+        <lb ed="#M"/>Cap: 18vum. Coniecturam et subtilitatulae quaedam Latinorum excutiuntur.
+        <lb ed="#M"/>Cap: 19num. Singularis quaestio: Utrum per Sanctionem Ephesimae Synodi, Oecumenicae tertiae liceat 
+        <lb ed="#M"/>Sacro Symbolo addere quidquam, saltem quod verissimum esse constet; et ostenditur negati<lb ed="#M" break="no"/>ve: 
+        atque adeo Latinos vocem illam: Filioque, quantumvis vera esset, symbolo inserere 
+        <lb ed="#M"/>nequaquam debuisse.
+      </p>
+      </div>
+    </body>
+  </text>
+</TEI>
