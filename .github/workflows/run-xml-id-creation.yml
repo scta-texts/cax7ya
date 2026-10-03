@@ -99,17 +99,13 @@ jobs:
           echo $base_file
           if grep -q "<transcription use-for-extraction=\"true\">${base_file}</transcription>" ${dir_name}/transcriptions.xml; then
             echo "Processing xml:id creation in canonical manifestation $file"
-            temp_file="${file}.tmp"
-            java -jar saxon.jar "-s:$file" -xsl:stylesheet.xsl "-o:$temp_file"
-            mv "$temp_file" "$file"
+            java -jar saxon.jar -s:$file -xsl:stylesheet.xsl -o:$file
           else
             echo "No matching transcription file found for $file"
           fi
 
           echo "Processing line number creation $file"
-          temp_file="${file}.tmp"
-          java -jar saxon.jar "-s:$file" -xsl:stylesheetLineNumber.xsl "-o:$temp_file"
-          mv "$temp_file" "$file"
+          java -jar saxon.jar -s:$file -xsl:stylesheetLineNumber.xsl -o:$file
         done
 
     - name: Commit and push changes
