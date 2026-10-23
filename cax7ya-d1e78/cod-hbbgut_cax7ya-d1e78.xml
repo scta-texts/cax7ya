@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 1</title>
+        <author ref="#per-fpk8py">Feofan Prokopovych</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name ref="#justincoyle">Justin Coyle</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 1</title>
+          <date when="2026-10-21">Oct 21, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="M" n="cod-hbbgut">MDA 245</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-10-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+      
+      </div>
+    </front>
+    <body>
+      <div xml:id="cax7ya-d1e78">
+        <head xml:id="cax7ya-d1e78-Hd1e108">Caput 1</head>
+        <head xml:id="cax7ya-d1e78-Hd1e110" type="question-title">De vocibus processionis et missionis, ut in hoc mysterio usurpantur: et statuitur status quaestionis</head>
+        <p xml:id="cax7ya-d1e78-d1e113">
+          CAPVT 1mum
+          De vocibus Processionis et Missionis, ut in hoc Mysterio usurpantur, 
+          et statuitur status Quaestionis.
+        </p>
+        <p xml:id="cax7ya-d1e78-d1e132">
+          <lb ed="#M" n="3"/>Ut clari in hanc controversiam intremus, vocum prius, quarum hic frequentissimus est usus, significationem debemus expen<lb ed="#M"/>dere,
+          et quid procedere et Processio, quid item Mitti et Missio in divinis significent, edocere.
+        </p>
+        <p xml:id="cax7ya-d1e78-d1e150">
+          <lb ed="#M"/>Verbum Procedendi in Latino quidem sermone minime id, quod in nostro negotio Sonat, neque solet adhiberi effectui, cum 
+          <lb ed="#M"/>ex caussa oriatur. Non solet, inquam, apud Latinos nitidos, et proprie loquentes; nam barbaros istos Scholasticos non memora<lb ed="#M"/>mus, 
+          nec moramur. Sed procedere idem est ac progredi: hoc est, de loco in locum moveri, et quidem sensim, ac lento 
+          <lb ed="#M"/>motu. Et tametsi verbum hoc reperiatur coniunctum cum praepositione a et ex; ut cum dicit <ref>Cicero in septima Verr<lb ed="#M"/>ina</ref>: 
+          <quote>Procedit iste repente e praetorio:</quote> nihilominus tamen praepositio ista se sola locum, e quo prodit ille, indicat, et verbo 
+          <lb ed="#M"/>procedendi propter materiam subiectam est addita, non quasi id natura verbi illius postularet. Habet autem idem verbum 
+          <lb ed="#M"/>alias quoque receptas: apud antiquos significationes, per quandam ad progressum analogiam: Sumitur enim
+          <pb ed="#M" n="132-v"/>
+          <lb ed="#M"/>et pro succedere bene vel male, et procedere in studiis est proficere, et apud iure consultos procedere idem est, 
+          <lb ed="#M"/>ac valere, seu iustam rationem esse, et habere vim argumenti, etc: vide <ref>Calepini Lexicon</ref> <!-- Ambrogio Calepino -->.
+        </p>
+        <p xml:id="cax7ya-d1e78-d1e199">
+          In hac vero controversia verbum procedendi
+          abusive accipitur, idque dupliciter: primo idem
+          valet ac mitti, vel missum esse; quemadmodum &amp;
+          verbum exeundi, pro missione usurpatum est a
+          Christo Ioann. XVI, 28. exivi a Patre &amp; veni in
+          mundum. Ita autem &amp; Spiritum Sanctum procedere a Filio, id est,
+          mitti, veteres quidam latini, licet incaute admodum,
+          dicebant, ut in historia hujus controversiae apud
+          Anastasium Bibliothecarium ex Sancti Maximi
+          epistola vidimus. Nec est, cur ista verbi
+          procedere usurpatio reprehendatur, nisi quod ambigua
+          cum sit, in alio, quam in quo a dicente
+          adhiberetur, sensu, ab audientibus accipi possit, &amp; ita
+          offendiculi ansam praebere; sicut &amp; praebuit
+          Latinis posterioribus, qui veterum suorum
+          doctorum mentem non intelligentes, vocem istam pro
+          missione usurpatam putarunt pro aeterna processione
+          usurpari, &amp; praecipites in transversum acti sunt.
+          Secunda autem &amp; quidem vulgatissima apud
+          Theologos verbi istius usurpatio est pro ortu
+          Spiritus Sancti ex caussa seu principio suo, idemque sonat,
+          atque oriri, emanare, habere ab aliquo suum esse,
+          suam existentiam, cet.
+        </p>
+        <p xml:id="cax7ya-d1e78-d1e252">
+          §. 4. Utraque ista vocis procedere usurpatio
+          non est ad amussim purae latinitatis. Sed quia
+          per eam exposuit latinus interpres verbum graecum
+          ἐκπορέυομαι Ioan. cap. xv. v. 26. &amp; ea veteres
+          Latini ad missionem denotandam usi fuere; illaque ipsa
+          vulgo in disputationibus personat: ideo illam ab
+          usu excludere non possumus.
+        </p>
+        <p xml:id="cax7ya-d1e78-d1e270">
+          
+          §. 5.
+          Est autem hic controversa quaestio de hoc:
+          utrum procedat Spiritus Sanctus a Filio etiam: an vero
+          a solo Patre, non in prima, sed in secunda
+          significatione verbum procedendi usurpando? Hoc est,
+          non quaeritur: an Spiritus Sanctus procedat, id est,
+          mittatur a Filio, quomodo quidam Latini veteres
+          dixerunt; in hoc enim cum Latinis consentimus,
+          quemadmodum etiam olim Sanctus MAXIMVS
+          subortam Graecis de Latinorum errore, quo nunc
+          moderni tenentur, suspicionem, ex non intellecta
+          vocis procedendi eorum usurpatione, tali verbi istius
+          explicatione exemerat, &amp; suboriens dissidium
+          sopiverat. Sed quaeritur: an Spiritus Sanctus ut a
+          Patre, ita a Filio etiam procedat ab aeterno, hoc est,
+          an habeat a Filio aeque atque a Patre suum esse,
+          suam existentiam? an Pater &amp; Filius sint caussa,
+          fons, origo, principium Spiritus Sancti? &amp; si quae
+          verba alia sint, quae effectus ex caussa eductionem
+          exprimere possint. Ita explicatum procedendi
+          verbum in litem vocatur.
+        </p>
+        <p xml:id="cax7ya-d1e78-d1e322">
+          §. 6. Porro Latini in hac quaestione abstinent
+          a voce caussae, neque volunt dicere vel Patrem
+          Filii, vel Patrem Filiumque Spiritus Sanctus esse
+          caussam, eo, quod in hoc nomine suboleant quandam,
+          ut loquuntur, imperfectionem: quod scilicet
+          inter caussam &amp; effectum quaedam semper appareat
+          inaequalitas, potiore penes caussam, ob hoc ipsum,
+          quod caussa sit, manente praerogativa; quod de
+          divinis personis, quae summe sunt sibi aequales,
+          dici non potest. Graeci tamen Patres ab ista
+          voce αἰτία (quae ipsis est, quod Latinis caussa) non
+          abhorrent: vel quod vox αἰτία non ita in sermone
+          graeco, ut caussa in latino cruda forte sit, vel quod
+          forte parum fuerint de vocabulis solliciti, ubi
+          sanam suam sententiam ita, ut verba secura essent,
+          clare &amp; disserte explicarunt. Qua propter
+          neque nos de vocibus litem faciemus, &amp;
+          secure tamen uti principii, ita etiam caussae
+          nomine, qua quod eorum accidet, utemur, patente
+          nostra ex superiore tractatu orthodoxa de
+          mysterio Trinitatis doctrina. Neque nobis de hac re
+          negotium facessat quisquam.
+        </p>
+        <p xml:id="cax7ya-d1e78-d1e373">
+          §. 7. Explicata autem processionis voce, atque
+          adeo statu quaestionis exposito, sponte patet,
+          processionem differre a missione. Tametsi enim
+          ignoret quis, quid sit missio in divinis, cum tamen
+          sciat, mitti unam personam ab alia, non esse illam ab
+          alia oriri: utique clare videt missionem non esse
+          processionem, qualiter in hac controversia usurpari
+          jam docuimus. Nihilominus tamen, quia ex
+          missione etiam argumenta pro dogmate suo elicere
+          satagunt Latini: breviter hic explicandum est, quid
+          sit unam personam mitti ab alia, &amp; in quo
+          hujusmodi dictum fundatum sit. Vox ergo missionis
+          cuique nota est, sed res expositione indiget. In
+          humano quidem sermonis commercio ille dicitur
+          MITTERE, qui alteri suo nomine committit negotium,
+          MITTI autem ille, qui alterius nomine obit
+          negotium. Id quod omnes missiones observanti patet.
+          Sed mittendi facultas varia est. Vel enim
+          imperando quis mittit, (quae quidem missio propria
+          apud homines est) vel etiam suadendo, rogando,
+          instigando, aliisque modis ad obeundum negotium
+          permovendo: quae tamen missiones improprie ita
+          dici assolent. Alias vero mittendi usurpationes,
+          quae plures sunt, hic recensere otiosum, quia non
+          necessarium est.
+        </p>
+        <p xml:id="cax7ya-d1e78-d1e432">
+          §. 8. Quemadmodum vero multa alia Deo
+          proprie non convenientia, dicuntur de Deo per
+          quandam analogiam, ut sedere, ambulare,
+          inflammari ad iram, cet. ita &amp; MISSIO divinarum
+          personarum non nisi analogice accipienda est. Cum
+          enim una eademque sit Patris, Filii, &amp; Spiritus Sancti
+          Majestas ac potentia, utique non potest dici Patrem
+          imperare Filio vel Spiritui Sancto quae proprie MISSIO
+          est: nec rogari unam personam ab alia; rogantis
+          enim esset quaedam penuria: nec unam alteri
+          suadere; nam illa, cui consilium alterius esset
+          necessarium, hoc ipso minus esse sapiens &amp; sibi non
+          sufficiens argueretur. Sed quaenam sit haec
+          analogia? quae caussa, cur una persona dicatur mitti ab
+          alia? Ubi duo consideranda &amp; explicanda sunt.
+          Primo, in missionis negotio semper adjungitur de
+          loco in locum transitus. Secundo, mittentis &amp;
+          missi relatio, &amp; ejusdem relationis caussa esse
+          debet. Et prioris quidem rei analogia facilis est, ea
+          scilicet, quae divini ad certa loca adventus,
+          praesentiae &amp; absentiae est. Nihil enim aliud est
+          Deum hic esse, &amp; illic non esse, nisi hic quidem
+          gratiam suam exerere alibi non item, hic exhibere
+          quasdam singulares operationes, alibi minime. Ut
+          autem adesse alicubi Deum, est ibi illum singulare
+          quidpiam operari, &amp; deesse, non operari, (saltim si
+          operatio pro significatione favoris divini accipiatur)
+          ita venire ad aliquem locum, est ipsum incipere ibi
+          operari, &amp; abire ex aliquo loco est illum operari
+          desinere.
+        </p>
+        <p xml:id="cax7ya-d1e78-d1e501">
+          §. 9. Multa hujusmodi in Sacris litteris dicta sunt,
+          &amp; non aliter explicantur ab omnibus Theologis
+          (neque enim debent, neque possunt explicari
+          aliter) nisi per exhibitionem vel ademptionem talium
+          divinae gratiae operationum. Nam cum Deus
+          immensus sit, atque adeo non possit non adesse ulli
+          loco: non potest utique, nisi hac ratione dici,
+          venire vel abire, adesse vel abesse; videlicet non
+          physice, non per naturam alibi adest, abest alibi, cum
+          ita semper &amp; ubique adsit; verum per gratiam,
+          eam alibi per quasdam actiones exhibendo, alibi
+          subtrahendo. Vide quae dicta sunt lib. primo, ubi
+          de immensitate Dei.
+        </p>
+        <p xml:id="cax7ya-d1e78-d1e532">
+          §. 10. Quando igitur dicitur Spiritus Sanctus
+          ad nos mitti &amp; venire, quantum ad priorem, quae
+          in missione humana consideratur, rationem, hoc est,
+          ad mutationem Loci: non alia analogia est, nisi
+          hic explicata, hoc est, incipere Spiritum Sanctum
+          aliquid in nobis agere, mentes illustrare, corda ad
+          timorem amoremque Dei, animos ad fiduciam in
+          Christo collocandam, ad pietatis exercitium
+          permovere, consolari in tristibus, confirmare
+          adversus instantia pericula, corroborare in
+          calamitatibus, quin &amp; in atrocibus pro Dei gloria,
+          fideique nostrae veritate tormentis, &amp; alias, quae
+          saluti humanae conducunt, operationes exercere.
+          Magis vero hoc ipsum in Filio Dei emicuit, qui
+          ad exercendam gratiam etiam carnem mortalem
+          induere non dedignatus est. Tales autem Dei
+          adnos adventus vel a nobis recessus esse non nisi
+          temporarios, cuique nisi nimis hebeti &amp; obtuso,
+          sponte patet. Quod enim incipit &amp; desinit, id
+          aeternum non est.
+        </p>
+        <p xml:id="cax7ya-d1e78-d1e579">
+          §. 11. Quapropter ridiculus est FRANCISCVS
+          Jesuita (qui etiamnum) Mosquae in Urbe regia
+          degit, &amp; cujus scriptum contra quandam
+          Illustrissimi STEPHANI Metropolitae Rezanensis in hac
+          eadem materia Lucubrationem editum nuper
+          confutavimus) cum novum axioma (neque enim
+          hactenus tale quid ab aliis audire mihi contigit)
+          commentus sit, &amp; praeter temporariam, quam
+          exponimus, Spiritus Sancti missionem, aliam nescio quam
+          Deitati inesse, distinctam tamen ab aeterna
+          processione, doceat, quam vocat ipse missionem notionalem ad
+          extra. Nam quod Deo ad extra est, ut
+          loquuntur, id utique in tempore est; quod vero ipsi est
+          notionale, inest ei ab aeterno, &amp; aeternum est. Id
+          enim NOTIONALE dicitur, per quod una
+          persona ab alia, quasi per certam &amp; sibi peculiarem
+          notam discernitur. Quomodo ergo Theologus iste
+          aliquid in Deo ponit notionale ad Extra, hoc
+          est, tale aeternum, quod est temporale? Nisi forte
+          intelligat operationes, quarum aliae Filio, aliae
+          Spiritui Sancto peculiariter tribuantur. Sed ita
+          elabi nequit, cum ipse notionalem suam ad extra
+          missionem distinguat a missione hic explicata: at
+          vero tales peculiares Spiritus Sancti operationes
+          hanc ipsissimam missionem efficiunt. Sed haec
+          obiter.
+        </p>
+        <p xml:id="cax7ya-d1e78-d1e640">
+          §. 12. Iam quantum attinet ad secundum, quae
+          scilicet ratio esse possit, cur talis Sancti Spiritus
+          ad homines adventus dicatur ejus missio, ipseque
+          cum a Patre, tum a Filio missus? Non diffiteor
+          difficilem esse hujus analogiae explicationem. Et
+          ingenuus quidem, minimeque curiosus
+          Theologus contentus erit verbis sacrae scripturae, quod
+          scilicet mitti Sanctum Spiritum ab illa doceamur;
+          nec ultra quidquam, quod ipsa non edocet,
+          scrutabitur, atque adeo nec caussam hujusmodi
+          verborum requiret. Sed demus locum conjecturae.
+          Patres aliqui (ut infra videbimus) cum
+          perpenderint Filium tantum &amp; Spiritum Sanctum missum
+          dici; nusquam vero hoc de Patre scriptum
+          reperiri: hanc rationem dicti istius cogitarunt, quod
+          missio subinnuat Personam missam non a se, verum
+          a persona alia ortum suum, &amp; esse aeternum
+          derivare. Quae opinio si admittatur; nihil tamen
+          juvabit caussam Latinorum, ut infra apparebit.
+          Nobis tamen persuadere non possumus, opinionem
+          istam esse legitimam. Neque enim ex Scriptura
+          ullum pro se afferre potest argumentum. Et
+          praeterea, quae Deo non conveniunt, in Scriptura
+          tamen de Deo enunciantur, illa utique per quandam
+          ad res nostras analogiam enunciantur. Quam
+          vero analogiam ex rebus humanis ista opinio
+          formabit? In humanis certe non, quidquid agit Filius,
+          dicitur esse missus ad hoc a Patre; &amp; unus ab alio
+          missus dicitur, quantumvis ab ipso non sit
+          genitus. Et tametsi dici possit, quod sol ad nos lucem
+          per fenestram miserit; Loquutio tamen ista
+          abusiva est &amp; inversa: sensus enim cjus rectus iste est:
+          fenestrae beneficio factum est, quod lux solis non
+          habuerit obstaculum sibi ad nos illabendi:
+          adeoque ratio, cur ad nos missa Lux dicatur, non
+          tenet se penes solem, lucis caussam, sed penes
+          fenestram.
+        </p>
+        <p xml:id="cax7ya-d1e78-d1e724">
+          §. 13. Melius ergo Sanctus GREGORIVS
+          NAZIANZENVS (cujus verba recitabimus infra,
+          ubi de Latinorum argumento ex missione petito
+          agemus) missionis rationem in consensu ponit: hoc
+          est, cum dicitur Pater vel Filius, mittere Spiritum
+          Sanctum, nihil aliud intelligendum est, nisi quod
+          Pater &amp; Filius consentiant ad negotium a
+          Spiritu Sancto peragendum. CoNSENSVS autem
+          iste non est mera conniventia &amp; approbatio,
+          sed consors actio: Operationes enim ad
+          extra communes sunt omnibus tribus Personis;
+          quia tamen quaedam operationes ad extra
+          singulari quodam titulo huic &amp; quaedam illi
+          personae tribuuntur: ideo aliae personae, idem
+          cum ipsa operantes, dicuntur consentire.
+          CoNSENSvS ergo iste est cooperatio. Exemplo rem
+          illustremus: motio cordium peculiariter Spiritui
+          Sancto tribuitur: neque tamen solus Spiritus Sanctus
+          permovet nos ad conversionem: nam &amp; Pater
+          trahit ad Filium. Ioan. vI. 44. Nemo potest venire
+          ad me, nisi Pater, qui misit me, traxerit eum: Et
+          Filius revelat Patrem: quod idem est. Matth. XI.
+          27. Nemo novit Filium, nisi Pater, neque Patrem
+          quisquam novit, nisi Filius, &amp; cuicunque voluerit
+          Filius revelare: Et alia plura talia sunt. Cum
+          itaque Spiritus Sanctus in mentibus cordibusque
+          nostris operatur bonum, id ipsum bonum simul
+          operatur Pater &amp; Filius: quia tamen haec
+          operatio peculiariter, &amp; singulari, uti dixi, titulo,
+          quasi propria vindicatur Spiritui Sancto, ideo Patris
+          &amp; Filii cooperatio consensus vocatur.
+        </p>
+        <p xml:id="cax7ya-d1e78-d1e795">
+          §. 14. Cur autem quaedam actiones Filio,
+          quaedam Patri &amp; quaedam Spiritui Sancto
+          peculiariter tribuantur? Si Theologorum morem
+          loquendi spectemus, non aliam adferre rationem
+          possunt, nisi quod quaedam actiones frequentius
+          in scrip tura tribuantur huic, aliae frequentius
+          illi personae. Si quaerere ultro pergas: cur
+          scriptura alias operationes huic, alias alteri tribuit
+          frequentius? De Filio quidem, cui peculiariter
+          tribuitur humani generis redemptio, facilis responsio
+          est; quod scilicet ille humanam carnem
+          susceperit, &amp; semet ipsum homo factus, tanquam λῦτρον
+          pro nobis redimendis dederit. At vero de Patre,
+          cul creatio, &amp; de Spiritu Sancto, cui illustratio,
+          motio, sanctificatio SINGVLARITER tribuuntur,
+          nihil video, quid possim respondere. Sint ne
+          quaedam in illis hypostasibus reales &amp; propriae
+          rationes, ob quas tales actiones ad illas terminentur,
+          nec ne? pie cogitare possumus, at pro certo statuere
+          nec valemus, ncc debemus; cum nihil tale in
+          sacra scriptura reperiamus: &amp; ex humano cerebro
+          oracula elicere stultissimum sit. Sed hoc obiter,
+          necessario tamen ad rei illustrationem dictum sit.
+        </p>
+        <p xml:id="cax7ya-d1e78-d1e849">
+          §. 15. Sed dices, aeque Filium &amp; spiritum
+          sanctum cooperari Patri, atque consentire, ac Patrem
+          filio &amp; spiritui sancto: cur igitur Pater non
+          dicitur mitti a Filio &amp; spiritu sancto, sicut Filius &amp;
+          spiritus a Patre mitti dicuntur? GREGORIVS
+          quidem Theologus, cujus haec est sententia, non
+          respondet ad hoc, quia nec hoc sibi objicit.
+          Dicamus nos, quod ipsi meditamur: primo quidem,
+          quod gratiosa in reparatione humani generis
+          opera Patri peculiariter non tribuantur; non
+          tribuuntur, inquam, peculiariter, ut hoc semper in
+          mente habeamus, nec subeat cogitatio, Patri ista
+          penitus non tribui. Ergo Pater ad ista opera quasi
+          non progreditur (sed hic quoque particula quasi
+          premenda est) adeoque nec mitti, aut missus esse
+          dici potest. Concipimus enim Patrem quasi
+          offensum a nobis Regem sedere, nobisque
+          Majestatis illius reis aeternum supplicium decernere.
+          Filium autem Mediatoris munus obire; &amp; ubi ille
+          Patrem pro nobis placavit, Spiritum Sanctum
+          concipimus circa conversionem &amp; instructionem
+          nostram occupatum esse. Ita autem concipimus
+          haec ob hoc ipsum, quod gratiosae operationes non
+          Patri, sed Filio &amp; Spiritui sancto singulariter
+          tribuuntur: quamquam tam Pater, quam Filius &amp;
+          Spiritus sanctus a nobis sit offensus, &amp; tam Pater
+          quam Filius &amp; Spiritus sanctus Christi sanguine &amp;
+          ope Spiritus sancti nobis reconcilietur. Ad
+          operationem autem, quae Patri peculiariter seu
+          singulariter tribui solet, hoc est, ad creationem,
+          rursus non potest dici missus esse Pater; quia MISSIO
+          praesupponit esse illam rem, ad quam quis mitti
+          dicitur. Nos ergo, ad quorum salutem Filius &amp;
+          Spiritus sanctus mitti dicuntur, ante salutem, &amp;
+          ante eorum arcanum adventum exstitimus, licet
+          damnati &amp; perditi: at vero res ante sui creationem
+          non existebant, nihil erant. Ergo ex defectu
+          termini ad quem, ut loquuntur, CREATIO non potest
+          dici missio, atque adeo neque Pater, dum creat,
+          mitti ad hoc recte diceretur.
+        </p>
+        <p xml:id="cax7ya-d1e78-d1e939">
+          §. 16. Praeter hanc rationem haec alia subit,
+          itidem in usu loquendi scripturae sacrae fundata.
+          Filius venit nomine Patris, tanquam Mediator
+          noster ab ipso ad hoc destinatus, Ioan. V. 43. Ego
+          veni in nomine Patris mei, nec accipitis me.
+          Spiritus autem sanctus venit in nomine Filii. Ioan.
+          XIv. 26. Paracletus ille spiritus, quem mittet
+          Pater in nomine meo, ille vos docebit omnia, &amp;
+          suggeret vobis omnia, quae dixi vobis. Cur Filius in
+          nomine Patris venit? quia illi (quem, ut dictum
+          est, Scriptura sacra proponit ut Regem offensum
+          peculiariter) reconciliandum genus humanum
+          venit: 2 Cor. V. 18. &amp; 19. atque adeo illum hoc
+          pacto glorificandum? Ioan. XIv. 13. &amp; XVII. 4. Cur
+          Spiritus sanctus in nomine Filii venit? quia
+          rursus ille ad Christum ut Regem &amp; Caput Ecclesiae
+          glorificandum venit: Ioann. xv. 26. Bene ergo
+          Filius a Patre, &amp; Spiritus sanctus a Patre simul &amp;
+          a Filio missus esse dicitur; quia ille venit in
+          negotio Paternae gloriae, restaurando genus humanum:
+          hic autem in negotio paternae gloriae &amp; Filii,
+          congregando ecclesiam, quae ad Patrem respicit ut
+          Regem offensum, sed reconciliatum, ad Filium
+          vero ut ad proprium caput suum.
+        </p>
+        <p xml:id="cax7ya-d1e78-d1e995">
+          §. 17. Singularis autem ratio, cur Spiritus
+          sanctus a Filio mittatur, haec est: quia videlicet
+          Filius meritis suis obtinuit, ut nobis spiritus
+          sanctus daretur; siquidem ei promisit Pater. Act. II.
+          38. Itaque dextera Dei sursum sublatus, &amp;
+          promissum Spiritus sancti adeptus a Patre, effudit
+          hoc, quod vos nunc videtis &amp; auditis. Unde &amp;
+          MISSIO haec Spiritus sancti (quamquam &amp; ante
+          mittebatur, cum &amp; antea in piorum cordibus
+          operabatur Spiritus sanctus) non nisi post
+          glorificationem, &amp; ascensionem Christi perficienda, promissa
+          est singulari titulo, qua excellentior &amp; clarior
+          operandi modus: quod quidem &amp; in citato nunc
+          textu innuitur, &amp; patet ex istis aliis locis. Ioan.
+          VII. 39. Non dum erat Spiritus sanctus, quia Iesus
+          nondum erat glorificatus, &amp; Ioann. XVI. 7. nisi
+          enim abiero, Paracletus non veniet ad vos: si
+          autem profectus fuero, mittam eum ad vos. Quare
+          ita? nimirum adhuc tum erat Christus in medio
+          itinere certaminum suorum: Spiritus autem
+          Sancti adventus ad gloriae ipsius perfectionem
+          spectabat, ut &amp; nobis post consummata Christi merita,
+          persolutumque pretium daretur, &amp; de Christo Rege
+          jam in gloria constituto testimonium perhiberet.
+          Cujus autem gratia aliquis venit, propter cujus
+          merita facit quidpiam, &amp; cujus gloriam assumit
+          propagandam, ab illo jure mitti ille dicitur.
+          Atque ita Spiritus sanctus non modo a Christo, qua
+          Deus, sed &amp; qua homo est, mittitur, hoc est,
+          propter ejus sanguinis pretium operatur in nobis
+          charismata sua.
+        </p>
+        <p xml:id="cax7ya-d1e78-d1e1067">
+          §. 18. Et haec videtur esse sufficiens missionis
+          ratio: certe clara est, comparate ad res humanas,
+          analogia. Nam personae divinae non proprie, sed
+          per analogiam mitti dicuntur. Et his ita bene
+          perspectis, magis enervatur ratio illa quorundam
+          Doctorum primo loco proposita; quod scilicet
+          missio talis fundetur in eo, quod persona, quae
+          dicitur mitti, subinnuatur per hoc non esse a se,
+          verum ab alia. Nam cur dicitur Spiritus Sanctus
+          nondum fuisse, hoc est, non dum venisse, antequam
+          Christus esset glorificatus? Cur christus dixit
+          Paracletum non venturum, nisi prius ipse coelos
+          ascendisset? non cohaerent ista cum tali istorum
+          cogitatione.
+        </p>
+        <p xml:id="cax7ya-d1e78-d1e1100">
+          §. 19.
+        </p>
+        <p xml:id="cax7ya-d1e78-d1e1105">
+          Ut vero nihil relinquamus, quod hic in
+          dubium vocari, aut nobis objici possit: duo
+          videntur superessc resolvenda. 1 Quare etiam Filius
+          dicatur a Spiritu Sancto missus: Esaj. LXI. 1. &amp;
+          Luc. 1v. 18. 2) Cur, ubi Pater dicitur
+          venturus ad suae voluntatis observatores, &amp; mansionem
+          apud eos sibi facturus, non dicitur mittendus?
+          Ioan. XIV. 23. Haec enim non creatio est, quam
+          non posse congrue vocari missionem, diximus, sed
+          gratiosa operatio.
+        </p>
+        <p xml:id="cax7ya-d1e78-d1e1130">
+          RESP. ad primum: Dicitur Filius a Spiritu
+          Sancto missus, tum, quod ad opus a Filio
+          susceptum consensit Spiritus Sanctus, eique uti Deo
+          Deus idem cooperatus est: &amp; quia opus hoc
+          proprie terminabatur ad secundam personam, ideo
+          Filius, qui est persona sccunda, dicitur missus;
+          Spiritus autem Sanctus, ut &amp; Pater, mittens; tum
+          etiam, quia Spiritui Sancto peculiariter tribuitur,
+          quod ipse Christum ut hominem illustraverit &amp;
+          corroboraverit ad negotium oeconomiae salutis
+          nostrae, ut ex allatis Esajae verbis,  &amp; ex illo
+          Ezechielis lapide oculato, &amp; ex aliis locis patet:
+          de quo etiam ex professo agetur, ubi de
+          incarnatione.
+        </p>
+        <p xml:id="cax7ya-d1e78-d1e1163">
+          RESP. ad secundum: Quia diximus Patri
+          gratiosa opera (quae licet illi conveniant, quippe quae
+          toti Trinitati communia sunt) tribui in scriptura
+          non tam frequenter; &amp; ob hoc ipsum non tribui
+          tanquam propria &amp; peculiaria: idcirco Pater ut
+          in aliis actionibus (sicut jam supra dictum est) ita
+          etiam in isto gratioso adventu non dicitur missus:
+          &amp; praesertim cum in citato loco dicitur venire
+          una cum Filio, ergo non congrua locutio csset,
+          dicere, Patrem missum esse a Filio. Spiritus
+          autem Sancti non fit mentio. Hactenus dicta bene
+          memoriae commendanda sunt. Multum enim
+          valent tum ad rei illustrationem, tum ad explodenda
+          adversariorum sophismata; ut infra eorum usus
+          apparebit.
+        </p>
+        <p xml:id="cax7ya-d1e78-d1e1199">
+          §. 20.
+        </p>
+        <p xml:id="cax7ya-d1e78-d1e1205">
+          Sed colligamus quasi in nodum, quae
+          prolixius explicuimus, ut facilius retineri queant.
+          PRoCESSIO sumitur &amp; pro temporaria missione, &amp; pro
+          aeterno unius personac ex alia ortu. Quaestio hic
+          est de processione Spiritus Sancti, in secundo non
+          in primo sensu. Varia autem nomina ad
+          explicandam vel exornandam processionem istam
+          adhiberi solent. Nam persona, ex qua alia procedit,
+          solet dici fons, principium, etiam a Graecis ἀἰτία,
+          hoc est, caussa; a quo vocabulo Latini abstinent,
+          sed in recta intelligentia usurpare illud nihil
+          obstat. Mis SIO autem &amp; PROCLSSIO temporaria, non
+          proprie, sed per analogiam ad res humanas, dicitur
+          de Deo. Analogia non bene explicatur per
+          respectum personae missae ad ejus originem aeternam:
+          Sed analogia ista in duobus consideranda est:
+          Primo, respectu terminorum a quo, &amp; ad quem: &amp;
+          MISSIO in hac consideratione nihil est aliud, nisi
+          gratiosi operis inceptio; &amp; cum mitti persona
+          divina ad aliquem dicitur, intelligendum est, illam
+          incipere in ipso operari hoc, quod antea non
+          operabatur. Secundo, respectu relationis mittentis &amp;
+          missi: ea rationem suam habet in operationibus
+          temporariis, quae peculiariter tribuuntur personae uni,
+          &amp; in consensu alterius personae cooperantis illi;
+          ob hos duos respectus una dicitur mittens, cui
+          scilicet eaedem operationes non sunt peculiares: altera
+          autem missa, cui peculiariter eaedem operationes
+          tribuuntur. Praeter hanc autem rationem,
+          Christo missio Spiritus Sancti etiam singulariter ob hoc
+          tribuitur, quod ipse pretio sui sanguinis meruit
+          nobis dona Spiritus Sancti, &amp; rursus, quod Sanctus
+          Spiritus collocato ad dexteram Dei Patris Christo,
+          gloriam ejus apud homines propagaverit.
+        </p>
+        <p xml:id="cax7ya-d1e78-d1e1282">
+          §. 21. Notentur etiam ad promptiorem
+          doctrinae istius, ut fieri solet in expedita disputatione,
+          enunciationem, istae distinctiones: PROCESSIO alia
+          est ad intra, alia ad extra: illa est, de qua hic
+          didisputamus: haec vero eadem est cum missione.
+          Item: Operationes divinae, quae fiunt ad extra,
+          hoc est, quae circa creaturas versantur,
+          simpliciter loquendo, communes sunt omnes omnibus
+          personis divinis: tamen terminative scu peculiariter
+          aliae quidem huic, aliae alii personae vindicantur:
+          Id vero ideo, quia scriptura has quidem uni; &amp;
+          illas alteri frequentius tribuit. Sint ne autem
+          quaedam hujus discriminis reales in ipsis personis
+          rationes, &amp; quaenam illae sint, nos penitus ignoramus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
